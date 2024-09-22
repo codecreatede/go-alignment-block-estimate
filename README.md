@@ -1,6 +1,6 @@
 go-alignment-block-estimate
 
-- a alignment block estimates.
+- a alignment block estimates of the selected block. 
 - define the start and the stop of the alignment regions and it computes all the stats from the given block region
 - it will only process that block of the alignment and not the complete alignment. 
 
