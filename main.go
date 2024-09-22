@@ -204,47 +204,47 @@ func flagsFunc(cmd *cobra.Command, args []string) {
 	}
 
 	fmt.Println(
-		"The collinearity block for A as a base pattern and T as a mismatch is %d",
+		"The collinearity block for A as a base pattern and T as a mismatch is ",
 		counterAT,
 	)
-	fmt.Println("The collinearity block for A as a base pattern G as a mismatch is %d", counterAG)
+	fmt.Println("The collinearity block for A as a base pattern G as a mismatch is", counterAG)
 	fmt.Println(
-		"The collinearity block for A as a base pattern and C as a mismatch is %d",
+		"The collinearity block for A as a base pattern and C as a mismatch is ",
 		counterAC,
 	)
 	fmt.Println(
-		"The collinearity block for T as a base pattern and G as a mismatch is %d",
+		"The collinearity block for T as a base pattern and G as a mismatch is ",
 		counterTG,
 	)
-	fmt.Println("The collinearity block for T as a base pattern C as a mismatch is  %d", counterTC)
+	fmt.Println("The collinearity block for T as a base pattern C as a mismatch is ", counterTC)
 	fmt.Println(
-		"The collinearity block for T as a base pattern and A as a mismatch is %d",
+		"The collinearity block for T as a base pattern and A as a mismatch is ",
 		counterTA,
 	)
 	fmt.Println(
-		"The collinearity block for G as a base pattern and C as a mismatch is %d",
+		"The collinearity block for G as a base pattern and C as a mismatch is ",
 		counterGC,
 	)
-	fmt.Println("The collinearity block for G as a base pattern A as a mismatch is  %d", counterGA)
+	fmt.Println("The collinearity block for G as a base pattern A as a mismatch is", counterGA)
 	fmt.Println(
-		"The collinearity block for G as a base pattern and T as a mismatch is %d",
+		"The collinearity block for G as a base pattern and T as a mismatch is ",
 		counterGT,
 	)
 	fmt.Println(
-		"The collinearity block for C as a base pattern and A as a mismatch is %d\n",
+		"The collinearity block for C as a base pattern and A as a mismatch is",
 		counterCA,
 	)
 	fmt.Println(
-		"The collinearity block for C as a base pattern T as a mismatch is  %d\n",
+		"The collinearity block for C as a base pattern T as a mismatch is",
 		counterCT,
 	)
 	fmt.Println(
-		"The collinearity block for C as a base pattern and G as a mismatch is %d\n",
+		"The collinearity block for C as a base pattern and G as a mismatch is",
 		counterCG,
 	)
 
-	fmt.Println("The number of the unified bases across A are %d", counterA)
-	fmt.Println("The number of the unified bases across T are %d", counterT)
-	fmt.Println("The number of the unified bases across G are %d", counterG)
-	fmt.Println("The number of the unified bases across C are %d", counterC)
+	fmt.Println("The number of the unified bases across A are", counterA)
+	fmt.Println("The number of the unified bases across T are", counterT)
+	fmt.Println("The number of the unified bases across G are", counterG)
+	fmt.Println("The number of the unified bases across C are", counterC)
 }

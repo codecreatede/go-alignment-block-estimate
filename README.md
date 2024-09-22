@@ -19,22 +19,22 @@ Flags:
   -s, --startcoordinate int    start of the alignment block (default 1)
 [gauravsablok@ultramarine]~/Desktop/codecreatede/go-alignment-block-estimate% \
 go run main.go -a ./samplefile/samplealignment.fasta -s 1 -e 10
-The collinearity block for A as a base pattern and T as a mismatch is %d 1
-The collinearity block for A as a base pattern G as a mismatch is %d 1
-The collinearity block for A as a base pattern and C as a mismatch is %d 0
-The collinearity block for T as a base pattern and G as a mismatch is %d 0
+The collinearity block for A as a base pattern and T as a mismatch is 1
+The collinearity block for A as a base pattern G as a mismatch is  1
+The collinearity block for A as a base pattern and C as a mismatch is  0
+The collinearity block for T as a base pattern and G as a mismatch is  0
 The collinearity block for T as a base pattern C as a mismatch is  %d 0
-The collinearity block for T as a base pattern and A as a mismatch is %d 0
-The collinearity block for G as a base pattern and C as a mismatch is %d 0
-The collinearity block for G as a base pattern A as a mismatch is  %d 0
-The collinearity block for G as a base pattern and T as a mismatch is %d 0
-The collinearity block for C as a base pattern and A as a mismatch is %d 0
+The collinearity block for T as a base pattern and A as a mismatch is  0
+The collinearity block for G as a base pattern and C as a mismatch is  0
+The collinearity block for G as a base pattern A as a mismatch is  0
+The collinearity block for G as a base pattern and T as a mismatch is  0
+The collinearity block for C as a base pattern and A as a mismatch is  0
 The collinearity block for C as a base pattern T as a mismatch is  %d 0
-The collinearity block for C as a base pattern and G as a mismatch is %d 0
-The number of the unified bases across A are %d 0
-The number of the unified bases across T are %d 0
-The number of the unified bases across G are %d 0
-The number of the unified bases across C are %d 1
+The collinearity block for C as a base pattern and G as a mismatch is 0
+The number of the unified bases across A are 0
+The number of the unified bases across T are 0
+The number of the unified bases across G are 0
+The number of the unified bases across C are 1
 ```
 
 Gaurav Sablok 
