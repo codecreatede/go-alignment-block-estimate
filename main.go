@@ -113,7 +113,8 @@ func flagsFunc(cmd *cobra.Command, args []string) {
 	counterT := 0
 	counterG := 0
 	counterC := 0
-	for i := 0; i < len(alignmentSelSeq); i++ {
+
+	for i := 0; i < len(alignmentSelSeq)-1; i++ {
 		for j := 0; j < len(alignmentSelSeq[0]); j++ {
 			if string(alignmentSelSeq[i][j]) == "A" && string(alignmentSelSeq[i+1][j]) == "A" {
 				counterA++
@@ -241,6 +242,7 @@ func flagsFunc(cmd *cobra.Command, args []string) {
 		"The collinearity block for C as a base pattern and G as a mismatch is %d\n",
 		counterCG,
 	)
+
 	fmt.Println("The number of the unified bases across A are %d", counterA)
 	fmt.Println("The number of the unified bases across T are %d", counterT)
 	fmt.Println("The number of the unified bases across G are %d", counterG)
